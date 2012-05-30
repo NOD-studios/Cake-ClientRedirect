@@ -1,8 +1,9 @@
 <?php
-class ClientRedirectComponent extends Component {
+class RedirectorComponent extends Component {
 	
+	protected $_controller = false;
 	protected $_defaults = array(
-		'enabled'	=> true,
+		'disabled'	=> true,
 		'layout'	=> 'ajax',
 		'render'	=> 'ClientRedirect./Redirects/javascript'
 	);
@@ -12,15 +13,14 @@ class ClientRedirectComponent extends Component {
 		return $this->controller = $controller;
     }
 	
-	public function enable() { return $this->settings['enabled'] = true; }
-	public function disable() { return !$this->settings['enabled'] = false; }
+	public function enable() { return !$this->settings['disabled'] = false; }
+	public function disable() { return $this->settings['disabled'] = true; }
 	
 	protected function _run($url) {
 		extract($this->settings);
 		
-		if($enabled) {
+		if(!$disabled) {
 			$url = Router::url($url, true);
-		
 			$this->controller->set('clientRedirect', $url);
 			return $this->controller->render($render, $layout) ? true : false;
 		}
