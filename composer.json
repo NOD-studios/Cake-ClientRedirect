@@ -1,5 +1,5 @@
 {
-    "name": "nod.st/client_redirect",
+    "name": "nod.st/client-redirect",
     "description": "CakePHP Client Redirect",
     "type": "cakephp-plugin",
     "keywords": ["cakephp", "javascript", "redirect", "helper"],
@@ -17,5 +17,6 @@
     "require": {
         "php": ">=5.3.0",
         "composer/installers": "*"
-    }
+    },
+    "minimum-stability": "dev"
 }
