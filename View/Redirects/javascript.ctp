@@ -1,1 +1,0 @@
-<script type="text/javascript">window.top.location = '<?php echo $clientRedirect; ?>';</script>
