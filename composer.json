@@ -1,8 +1,8 @@
 {
-    "name": "nod.st/controllers_list",
-    "description": "CakePHP Controllers List",
+    "name": "nod.st/client_redirect",
+    "description": "CakePHP Client Redirect",
     "type": "cakephp-plugin",
-    "keywords": ["cakephp", "controller", "list", "component"],
+    "keywords": ["cakephp", "javascript", "redirect", "helper"],
     "authors": [
         {
             "name": "Furkan Tunalı",
@@ -15,7 +15,7 @@
         }
     ],
     "require": {
-        "php": ">=5.3.0",
+        "php": ">=5.2.0",
         "composer/installers": "*"
     },
     "minimum-stability": "dev"
