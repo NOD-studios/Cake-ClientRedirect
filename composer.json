@@ -1,5 +1,5 @@
 {
-    "name": "nod.st/client_redirect",
+    "name": "nod.st/cake-client-redirect",
     "description": "CakePHP Client Redirect",
     "type": "cakephp-plugin",
     "keywords": ["cakephp", "javascript", "redirect", "helper"],
