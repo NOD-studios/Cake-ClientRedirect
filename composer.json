@@ -1,9 +1,10 @@
 {
-    "name": "nod.st/cake-client-redirect",
-    "description": "CakePHP Client Redirect",
-    "type": "cakephp-plugin",
-    "keywords": ["cakephp", "javascript", "redirect", "helper"],
-    "authors": [
+    "name"				: "nod.st/cake-client-redirect",
+    "version"			: "0.1.2",
+    "description"		: "CakePHP Client Redirect",
+    "type"				: "cakephp-plugin",
+    "keywords"			: ["cakephp", "javascript", "redirect", "helper"],
+    "authors"			: [
         {
             "name": "Furkan Tunalı",
             "homepage": "http://www.furkantunali.com",
@@ -14,9 +15,9 @@
             "homepage": "http://nod.st"
         }
     ],
-    "require": {
-        "php": ">=5.2.0",
-        "composer/installers": "*"
+    "require"			: {
+        "php"					: ">=5.2.0",
+        "composer/installers"	: "*"
     },
-    "minimum-stability": "dev"
+    "minimum-stability"	: "dev"
 }
