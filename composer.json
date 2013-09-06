@@ -1,23 +1,23 @@
 {
-    "name"				: "nod.st/cake-client-redirect",
-    "version"			: "0.1.2",
+    "name"				: "nod.st/cakephp-client-redirect",
+    "version"			: "1.1.2",
     "description"		: "CakePHP Client Redirect",
     "type"				: "cakephp-plugin",
     "keywords"			: ["cakephp", "javascript", "redirect", "helper"],
     "authors"			: [
         {
-            "name": "Furkan Tunalı",
-            "homepage": "http://www.furkantunali.com",
-            "role": "Author"
+            "name"      : "Furkan Tunalı",
+            "homepage"  : "http://www.furkantunali.com",
+            "email"     : "furkan@nod.st",
+            "role"      : "Author"
         },
         {
-            "name": "NOD Studios",
-            "homepage": "http://nod.st"
+            "name"      : "NOD Studios",
+            "homepage"  : "http://nod.st"
         }
     ],
     "require"			: {
         "php"					: ">=5.2.0",
         "composer/installers"	: "*"
-    },
-    "minimum-stability"	: "dev"
+    }
 }
