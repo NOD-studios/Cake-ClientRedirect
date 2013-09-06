@@ -18,5 +18,8 @@
     "require"			: {
         "php"					: ">=5.2.0",
         "composer/installers"	: "*"
+    },
+     "extra": {
+        "installer-name": "ClientRedirect"
     }
 }
